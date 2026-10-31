@@ -1,10 +1,12 @@
 [
-  {
-    "id": "1",
-    "judul": "Contoh item pertama",
-    "kategori": "Contoh",
-    "fieldTema1": "ganti sesuai field tema",
-    "fieldTema2": 0,
-    "fieldTema3": "ganti sesuai field tema"
-  }
+  {"id": "1", "judul": "Berenang Gaya Bebas", "kategori": "Olahraga Air", "tanggal": "06-01-2026", "durasi": 180, "kalori": 875},
+  {"id": "2", "judul": "Bulu Tangkis", "kategori": "Olahraga Permainan", "tanggal": "29-02-2026", "durasi": 90, "kalori": 415},
+  {"id": "3", "judul": "Basket Kompetitif", "kategori": "Olahraga Permainan", "tanggal": "03-04-2026", "durasi": 15, "kalori": 100},
+  {"id": "4", "judul": "Jogging Pagi", "kategori": "Olahraga Kardio", "tanggal": "17-05-2026", "durasi": 45, "kalori": 265},
+  {"id": "5", "judul": "Lompat Tali", "kategori": "Olahraga Kardio", "tanggal": "22-05-26", "durasi": 10, "kalori": 92},
+  {"id": "6", "judul": "Senam Aerobik", "kategori": "Senam & Kebugaran", "tanggal": "09-07-2026", "durasi": 30, "kalori": 164},
+  {"id": "7", "judul": "Voli", "kategori": "Olahraga Permainan", "tanggal": "28-08-2026", "durasi": 30, "kalori": 100},
+  {"id": "8", "judul": "Bersepeda", "kategori": "Olahraga Kardio", "tanggal": "01-09-2026", "durasi": 120, "kalori": 403},
+  {"id": "9", "judul": "Catur", "kategori": "Olahraga Otak", "tanggal": "11-11-2026", "durasi": 60, "kalori": 75},
+  {"id": "10", "judul": "Bowling", "kategori": "Olahraga Permainan", "tanggal": "30-12-2026", "durasi": 120, "kalori": 302}
 ]
