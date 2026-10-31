@@ -1,0 +1,18 @@
+.kerangka {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.kepala {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .kepala {
+    display: grid;
+    gap: 12px;
+  }
+}
