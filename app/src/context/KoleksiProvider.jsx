@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-import { KoleksiContext } from "./koleksiContext";
-import useLocalStorage from "../hooks/useLocalStorage";
+import { KoleksiContext } from "./koleksiContext.js";
+import useLocalStorage from "../hooks/useLocalStorage.js";
 
 export default function KoleksiProvider({children}){
     const [items, setItems] = useLocalStorage('jurnal-latihan', null)
