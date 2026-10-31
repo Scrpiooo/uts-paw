@@ -1,4 +1,4 @@
-import {Navlink, Outlet} from "react-router-dom"
+import {NavLink, Outlet} from "react-router-dom"
 
 const MENU = [
     { ke: "/", label: "Beranda"},
@@ -16,9 +16,9 @@ export default function Layout(){
 
                 <nav className="flex flex-wrap gap-4">
                     {MENU.map(({ke, label}) => (
-                    <Navlink key={ke} to={ke} end={ke === `/`} className={({isActive}) => isActive ? `font-semibold` : ``}>
+                    <NavLink key={ke} to={ke} end={ke === `/`} className={({isActive}) => isActive ? `font-semibold` : ``}>
                         {label}
-                    </Navlink>
+                    </NavLink>
                 ))}
                 </nav>
             </header>
