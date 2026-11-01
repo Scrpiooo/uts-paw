@@ -27,7 +27,7 @@ export default function Tambah(){
   return(
     <form className="formulir mx-auto flex w-full max-w-xl flex-col gap-4 rounded-xl border border-[#D8CBB8] bg-white p-6 shadow-sm" 
     onSubmit={simpan} noValidate>
-      <h1 className="font-bold text-[#082052] text-[24px]">Tambah Tugas</h1>
+      <h1 className="font-bold text-[#082052] text-[24px]">Tambah Latihan</h1>
 
       <div className="flex flex-col gap-2">
         <label htmlFor="judul" className="font-semibold text-[#082052]">Judul</label>
